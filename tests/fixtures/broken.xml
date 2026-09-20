@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<verification-metadata xmlns="https://schema.gradle.org/dependency-verification">
+  <configuration>
+    <keyring-format>nope</keyring-format>
+    <trusted-keys><trusted-key id="not-a-key" /></trusted-keys>
+    <trusted-artifacts><trust regex="maybe" /></trusted-artifacts>
+  </configuration>
+  <components>
+    <component group="com.example" name="demo" version="1.0">
+      <artifact name="demo-1.0.jar">
+        <sha1 value="deadbeef" />
+        <sha1 value="deadbeef" />
+      </artifact>
+      <artifact name="demo-1.0.jar" />
+    </component>
+    <component group="com.example" name="demo" version="1.0">
+      <artifact />
+    </component>
+    <component group="" name="missing" version="1.0" />
+  </components>
+</verification-metadata>
+

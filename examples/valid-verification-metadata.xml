@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<verification-metadata xmlns="https://schema.gradle.org/dependency-verification">
+  <configuration>
+    <verify-metadata>true</verify-metadata>
+    <verify-signatures>false</verify-signatures>
+    <keyring-format>armored</keyring-format>
+    <trusted-keys>
+      <trusted-key id="0123456789ABCDEF0123456789ABCDEF01234567" group="org.example" />
+    </trusted-keys>
+  </configuration>
+  <components>
+    <component group="org.example" name="library" version="1.2.3">
+      <artifact name="library-1.2.3.jar">
+        <sha256 value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" origin="official release" />
+      </artifact>
+    </component>
+  </components>
+</verification-metadata>
+

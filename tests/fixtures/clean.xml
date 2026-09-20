@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<verification-metadata xmlns="https://schema.gradle.org/dependency-verification">
+  <configuration><verify-metadata>true</verify-metadata></configuration>
+  <components>
+    <component group="com.example" name="demo" version="1.0">
+      <artifact name="demo-1.0.jar">
+        <sha256 value="0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef" />
+      </artifact>
+    </component>
+  </components>
+</verification-metadata>
+
